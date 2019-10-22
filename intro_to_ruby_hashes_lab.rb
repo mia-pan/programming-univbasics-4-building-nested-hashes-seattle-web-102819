@@ -21,7 +21,7 @@ def monopoly_with_third_tier
   railroads: {
     pieces: 4,
     name: {
-      :pennsylvania_railroad =>{mortgage_value: },
+      :pennsylvania_railroad =>{mortgage_value: "$100"},
       :b_and_o_railroad =>{},
       :shortline_railroad =>{}
       }
