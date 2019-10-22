@@ -20,7 +20,11 @@ end
 def monopoly_with_third_tier
   railroads: {
     pieces: 4,
-    name: {}
+    name: {
+      :pennsylvania_railroad =>{},
+      
+      
+    }
     rent_in_dollars:{
       :one_piece_owned =>25,
       :two_pieces_owne =>50,
