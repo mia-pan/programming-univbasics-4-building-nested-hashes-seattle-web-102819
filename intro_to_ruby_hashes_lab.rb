@@ -8,7 +8,7 @@ end
 
 def monopoly_with_second_tier
   railroads: {
-    pieces: 4
+    pieces: "4"
     
   }
   # When you start writing the implementation for this method, copy the Hash
@@ -19,15 +19,15 @@ end
 
 def monopoly_with_third_tier
   railroads: {
-    pieces: 4,
+    pieces: "4",
     name: {}
       
       
     rent_in_dollars: {
-      :one_piece_owned => 25,
-      :two_pieces_owne => 50,
-      :three_pieces_owned => 100,
-      :four_pieces_owned => 200
+      :one_piece_owned => "25",
+      :two_pieces_owne => "50",
+      :three_pieces_owned => "100",
+      :four_pieces_owned => "200"
        }
     }
   # When you start writing the implementation for this method, copy the Hash
@@ -38,7 +38,7 @@ end
 
 def monopoly_with_fourth_tier
   railroads: {
-    pieces: 4,
+    pieces: "4",
     name: {
       :reading_railroad => {"mortgage_value": "$100"},
       :pennsylvania_railroad => {"mortgage_value": "$200"},
@@ -47,10 +47,10 @@ def monopoly_with_fourth_tier
       }
       
     rent_in_dollars:{
-      :one_piece_owned => 25,
-      :two_pieces_owne => 50,
-      :three_pieces_owned => 100,
-      :four_pieces_owned => 200
+      :one_piece_owned => "25",
+      :two_pieces_owne => "50",
+      :three_pieces_owned => "100",
+      :four_pieces_owned => "200"
        }
     }
   # When you start writing the implementation for this method, copy the Hash
